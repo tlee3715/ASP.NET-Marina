@@ -1,0 +1,12 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.MarinaWcfService.dll.config
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.MarinaWcfService.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.MarinaWcfService.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\obj\Debug\CPRG255.FinalProject.MarinaWcfService.csprojResolveAssemblyReference.cache
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\obj\Debug\CPRG255.FinalProject.MarinaWcfService.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\obj\Debug\CPRG255.FinalProject.MarinaWcfService.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.BLL.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.Framework.Data.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.BLL.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.MarinaWcfService\bin\CPRG255.Framework.Data.pdb

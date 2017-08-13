@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRG255.FinalProject.InlandMarina", "CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.InlandMarina.csproj", "{FCD933F0-D622-4B04-8275-84B3A33FFA9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43BCC92C-FEFF-470E-93B9-D61FD567E0B0} = {43BCC92C-FEFF-470E-93B9-D61FD567E0B0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRG255.FinalProject.Domain", "CPRG255.FinalProject.Domain\CPRG255.FinalProject.Domain.csproj", "{105C2C8D-FCA2-47C7-AFEB-FA941EBDCEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRG255.FinalProject.BLL", "CPRG255.FinalProject.BLL\CPRG255.FinalProject.BLL.csproj", "{CF0B7113-FF4C-4BB4-93E8-26FB68F58951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRG255.Framework.Data", "CPRG255.Framework.Data\CPRG255.Framework.Data.csproj", "{ED40036B-1BBE-4B7E-9CCA-58F62EC191AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPRG255.FinalProject.MarinaWcfService", "CPRG255.FinalProject.MarinaWcfService\CPRG255.FinalProject.MarinaWcfService.csproj", "{43BCC92C-FEFF-470E-93B9-D61FD567E0B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD933F0-D622-4B04-8275-84B3A33FFA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD933F0-D622-4B04-8275-84B3A33FFA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD933F0-D622-4B04-8275-84B3A33FFA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD933F0-D622-4B04-8275-84B3A33FFA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105C2C8D-FCA2-47C7-AFEB-FA941EBDCEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105C2C8D-FCA2-47C7-AFEB-FA941EBDCEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105C2C8D-FCA2-47C7-AFEB-FA941EBDCEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105C2C8D-FCA2-47C7-AFEB-FA941EBDCEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0B7113-FF4C-4BB4-93E8-26FB68F58951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0B7113-FF4C-4BB4-93E8-26FB68F58951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0B7113-FF4C-4BB4-93E8-26FB68F58951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0B7113-FF4C-4BB4-93E8-26FB68F58951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED40036B-1BBE-4B7E-9CCA-58F62EC191AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED40036B-1BBE-4B7E-9CCA-58F62EC191AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED40036B-1BBE-4B7E-9CCA-58F62EC191AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED40036B-1BBE-4B7E-9CCA-58F62EC191AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BCC92C-FEFF-470E-93B9-D61FD567E0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BCC92C-FEFF-470E-93B9-D61FD567E0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BCC92C-FEFF-470E-93B9-D61FD567E0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BCC92C-FEFF-470E-93B9-D61FD567E0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

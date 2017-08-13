@@ -1,0 +1,9 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.FinalProject.BLL.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.FinalProject.BLL.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\obj\Debug\CPRG255.FinalProject.BLL.csprojResolveAssemblyReference.cache
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\obj\Debug\CPRG255.FinalProject.BLL.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\obj\Debug\CPRG255.FinalProject.BLL.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.Framework.Data.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.BLL\bin\Debug\CPRG255.Framework.Data.pdb

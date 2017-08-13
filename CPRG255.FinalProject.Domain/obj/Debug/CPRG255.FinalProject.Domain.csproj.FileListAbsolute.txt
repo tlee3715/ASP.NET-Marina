@@ -1,0 +1,4 @@
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.Domain\bin\Debug\CPRG255.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.Domain\bin\Debug\CPRG255.FinalProject.Domain.pdb
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.Domain\obj\Debug\CPRG255.FinalProject.Domain.dll
+C:\Users\letoa\Desktop\School\.NET certificate\CPRG-255\CPRG255.FinalProject.InlandMarina\CPRG255.FinalProject.Domain\obj\Debug\CPRG255.FinalProject.Domain.pdb

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3edcc3b3-b67e-4cba-93eb-94607d6745d2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65130/MarinaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MarinaService.disco" MetadataType="Disco" ID="0a768584-68cc-430a-b700-59a17f6ef2b3" SourceId="1" SourceUrl="http://localhost:65130/MarinaService.svc?disco" />
+    <MetadataFile FileName="MarinaService.xsd" MetadataType="Schema" ID="0423d370-d3bd-4037-98ba-d60e5cb34d07" SourceId="1" SourceUrl="http://localhost:65130/MarinaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MarinaService1.xsd" MetadataType="Schema" ID="f12e10c0-0f27-47c7-83cb-439583119a69" SourceId="1" SourceUrl="http://localhost:65130/MarinaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MarinaService.wsdl" MetadataType="Wsdl" ID="23251953-440b-4f80-9c31-60260288b3f2" SourceId="1" SourceUrl="http://localhost:65130/MarinaService.svc?wsdl" />
+    <MetadataFile FileName="MarinaService2.xsd" MetadataType="Schema" ID="2abbd450-d404-45c6-ae2a-1d7c86b6253e" SourceId="1" SourceUrl="http://localhost:65130/MarinaService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

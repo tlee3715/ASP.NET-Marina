@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Home.aspx" title="Home"  description="Home Page">
+    <siteMapNode url="~/Contact.aspx" title="Contact"  description="Contact Us Page" />
+    <siteMapNode url="~/SlipDisplay.aspx" title="Slips" description="Slip Information" />
+    <siteMapNode url="~/CustomerRegistration.aspx" title="Register"  description="Customer Registration Page" />
+    <siteMapNode url="~/Login.aspx" title="Login"  description="Customer Login Page" />
+    <siteMapNode url="" title="Secure"  description="Customer Only Area">
+      <siteMapNode url="~/SecureArea/UpdateInfo.aspx" title="Update Info"  description="Customer Only Area" />
+      <siteMapNode url="~/SecureArea/LeaseSlip.aspx" title="Lease Slip" description="Create and Lease Your Slip" />
+      <siteMapNode url="~/SecureArea/AddBoat.aspx" title="Add Boat(s)" description="Add a New Boat"/>
+      <siteMapNode url="~/SecureArea/UpdateBoat.aspx" title="Update Boat(s)" description="Update Your Boat"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

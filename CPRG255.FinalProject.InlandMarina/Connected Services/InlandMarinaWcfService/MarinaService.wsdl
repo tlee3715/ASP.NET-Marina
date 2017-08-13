@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MarinaService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:65130/MarinaService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:65130/MarinaService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:65130/MarinaService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CPRG255.FinalProject.Domain" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMarinaService_AddAuthorize_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthorize" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddAuthorize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthorizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateAuthorize_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthorize" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateAuthorize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthorizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddBoat_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddBoat" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddBoat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddBoatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateBoat_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBoat" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateBoat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBoatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetBoatsByCustomerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBoatsByCustomerId" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetBoatsByCustomerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBoatsByCustomerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllBoats_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBoats" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllBoats_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBoatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetBoatById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBoatById" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetBoatById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBoatByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_Authenticate_InputMessage">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_Authenticate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllCustomers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomers" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_UpdateCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetCustomerRecordById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerRecordById" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetCustomerRecordById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerRecordByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetDocks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocks" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetDocks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetDocksByLocationId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocksByLocationId" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetDocksByLocationId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocksByLocationIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddLease_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddLease" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_AddLease_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddLeaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetLeaseTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeaseTypes" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetLeaseTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeaseTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetLocations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocations" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetLocations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAvailableSlipsByDockId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSlipsByDockId" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAvailableSlipsByDockId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableSlipsByDockIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllSlips_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSlips" />
+  </wsdl:message>
+  <wsdl:message name="IMarinaService_GetAllSlips_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSlipsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMarinaService">
+    <wsdl:operation name="AddAuthorize">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/AddAuthorize" message="tns:IMarinaService_AddAuthorize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/AddAuthorizeResponse" message="tns:IMarinaService_AddAuthorize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthorize">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/UpdateAuthorize" message="tns:IMarinaService_UpdateAuthorize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/UpdateAuthorizeResponse" message="tns:IMarinaService_UpdateAuthorize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBoat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/AddBoat" message="tns:IMarinaService_AddBoat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/AddBoatResponse" message="tns:IMarinaService_AddBoat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBoat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/UpdateBoat" message="tns:IMarinaService_UpdateBoat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/UpdateBoatResponse" message="tns:IMarinaService_UpdateBoat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBoatsByCustomerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetBoatsByCustomerId" message="tns:IMarinaService_GetBoatsByCustomerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetBoatsByCustomerIdResponse" message="tns:IMarinaService_GetBoatsByCustomerId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBoats">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetAllBoats" message="tns:IMarinaService_GetAllBoats_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetAllBoatsResponse" message="tns:IMarinaService_GetAllBoats_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBoatById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetBoatById" message="tns:IMarinaService_GetBoatById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetBoatByIdResponse" message="tns:IMarinaService_GetBoatById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/Authenticate" message="tns:IMarinaService_Authenticate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/AuthenticateResponse" message="tns:IMarinaService_Authenticate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetAllCustomers" message="tns:IMarinaService_GetAllCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetAllCustomersResponse" message="tns:IMarinaService_GetAllCustomers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/UpdateCustomer" message="tns:IMarinaService_UpdateCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/UpdateCustomerResponse" message="tns:IMarinaService_UpdateCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/AddCustomer" message="tns:IMarinaService_AddCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/AddCustomerResponse" message="tns:IMarinaService_AddCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerRecordById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetCustomerRecordById" message="tns:IMarinaService_GetCustomerRecordById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetCustomerRecordByIdResponse" message="tns:IMarinaService_GetCustomerRecordById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetDocks" message="tns:IMarinaService_GetDocks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetDocksResponse" message="tns:IMarinaService_GetDocks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocksByLocationId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetDocksByLocationId" message="tns:IMarinaService_GetDocksByLocationId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetDocksByLocationIdResponse" message="tns:IMarinaService_GetDocksByLocationId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddLease">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/AddLease" message="tns:IMarinaService_AddLease_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/AddLeaseResponse" message="tns:IMarinaService_AddLease_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeaseTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetLeaseTypes" message="tns:IMarinaService_GetLeaseTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetLeaseTypesResponse" message="tns:IMarinaService_GetLeaseTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetLocations" message="tns:IMarinaService_GetLocations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetLocationsResponse" message="tns:IMarinaService_GetLocations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSlipsByDockId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetAvailableSlipsByDockId" message="tns:IMarinaService_GetAvailableSlipsByDockId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetAvailableSlipsByDockIdResponse" message="tns:IMarinaService_GetAvailableSlipsByDockId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSlips">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarinaService/GetAllSlips" message="tns:IMarinaService_GetAllSlips_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarinaService/GetAllSlipsResponse" message="tns:IMarinaService_GetAllSlips_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMarinaService" type="tns:IMarinaService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddAuthorize">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/AddAuthorize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthorize">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/UpdateAuthorize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBoat">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/AddBoat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBoat">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/UpdateBoat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoatsByCustomerId">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetBoatsByCustomerId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBoats">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetAllBoats" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoatById">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetBoatById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetAllCustomers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/UpdateCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/AddCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerRecordById">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetCustomerRecordById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocks">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetDocks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocksByLocationId">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetDocksByLocationId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddLease">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/AddLease" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeaseTypes">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetLeaseTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetLocations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableSlipsByDockId">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetAvailableSlipsByDockId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSlips">
+      <soap:operation soapAction="http://tempuri.org/IMarinaService/GetAllSlips" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MarinaService">
+    <wsdl:port name="BasicHttpBinding_IMarinaService" binding="tns:BasicHttpBinding_IMarinaService">
+      <soap:address location="http://localhost:65130/MarinaService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
